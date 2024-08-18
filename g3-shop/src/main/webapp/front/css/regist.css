@@ -1,0 +1,59 @@
+
+.body{
+	width: 450px;
+	margin:100px auto;
+}
+
+.body label{
+	display: inline-block;
+	width:100px;
+	height: 30px;
+	text-align: right;
+}
+
+.body .inp{
+	width:300px;
+	height: 40px;
+	margin:5px 0;
+	padding: 0 10px;
+	border:1px solid rgba(200,200,200,0.5)
+}
+
+.body .pcc{
+	width:97px;
+	height: 40px;
+	margin:5px 0;
+	padding: 0 10px;
+	border:1px solid rgba(200,200,200,0.5)
+}
+
+.body .pro{
+	margin-left: -3px;
+}
+
+
+.body .but{
+	width:200px;
+	height: 40px;
+	background-color: orangered;
+	border:none;
+	color:white;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+
+.body .sub{
+	background-color: darkcyan;
+}
+
+.body .glyphicon{
+	margin-left: 10px;
+}
+
+.body .glyphicon-ok{
+	color: rgb(0,166,82);
+}
+
+.body .glyphicon-remove{
+	color: red;
+}

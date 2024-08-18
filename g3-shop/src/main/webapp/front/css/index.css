@@ -1,0 +1,271 @@
+body{
+	background-color: rgb(239,255,198);	
+}
+
+.gg_img{
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/bgImg/top02.png);
+	position: absolute;
+	z-index: -1;
+}
+
+.body .menu_box{
+	width: 1300px;
+	min-height: 400px;
+	background-color: rgb(255, 255, 255);
+	margin:14px auto;
+	margin-top: 120px;
+	border-radius: 5px;
+	border: 1px solid rgb(0, 0, 0, 0.2);
+	padding-top: 20px;
+}
+
+.body .menu_box .left{
+	width: 220px;
+	float: left;
+}
+
+.body .menu_box .left ul li{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	list-style: none;
+	padding-left: 20px;
+}
+
+.body .menu_box .left a{
+	text-decoration: none;
+	color:black;
+}
+
+.body .menu_box .left ul li:hover{
+	background-color: rgba(150,200,0,0.5);
+}
+
+.body .menu_box .left ul li:hover a{
+	color: white;
+	font-weight: bold;
+}
+
+.body .menu_box .lunbo{
+	width: 800px;
+	height: 360px;
+	float: left;
+	padding:0 10px;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-top: none;
+	border-bottom: none;
+	overflow: hidden;
+}
+
+.body .menu_box .lunbo span{
+	display: inline-block;
+	width: 780px;
+	min-height: 360px;
+	background-image: url("../img/lumbo/lunbo01.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.body .menu_box .right{
+	width: 278px;
+	float: left;
+	padding-left: 20px;
+}
+
+.body .menu_box .right .title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color:orangered;
+	font-size: 16px;
+}
+
+.body .menu_box .right ul li{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	list-style: none;
+}
+.body .menu_box .right ul li a{
+	color:black;
+}
+.body .menu_box .right ul li a:hover{
+	color: orangered;
+}
+.body .menu_box .right .in:first-child{
+	margin-top: 100px ;
+}
+.body .menu_box .right .in{
+	width: 220px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 5px;
+	padding: 0 10px;
+	border-color: rgba(0,0,0,0.1);
+}
+
+.body .menu_box .right .yzm{
+	width: 115px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border-color: rgba(0,0,0,0.1);
+	padding: 0 10px;
+	display: block;
+	float: left;
+}
+
+.body .menu_box .right .but{
+	width: 105px;
+	height: 30px;
+	float: left;
+	border-radius: 5px;
+	background-color: orange;
+	border: none;
+	margin: 10px 0;
+	margin-right: 11px;
+}
+
+.goodsType {
+	width: 1298px;
+	margin:10px auto;
+	border-radius: 5px;
+	background-color: white;
+	padding:0 1px;
+	/*border: 1px solid rgba(0,0,0,0.2);*/
+}
+
+.goodsType .title{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color:rgb(158, 49, 244);
+	border-radius: 5px;
+	padding:0 20px;
+	margin-bottom: 10px;
+}
+
+.goodsType .title a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size:16px ;
+}
+
+.goodsType .good{
+	width: 216px;
+	height: 300px;
+	border: 1px solid rgba(200, 200, 200, 0.3);
+	float: left;
+	padding: 15px;
+}
+
+.goodsType .good:hover{
+	border: 1px solid orangered;
+}
+
+.goodsType .good .img{
+	width: 100%;
+	height: 184px;
+}
+
+.goodsType .good .img img{
+	width: 100%;
+	height: 100%;
+	background-repeat: none;
+}
+
+.goodsType .good .menu{
+	width: 100%;
+	height: 30px;
+	margin-top: -30px;
+	display: none;
+}
+
+.goodsType .good:hover .menu{
+	display: block;
+}
+
+.goodsType .good .menu a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color:black;
+	text-align: center;
+	line-height: 30px;
+	background-color: rgba(255, 69, 0, 0.8);
+	color: white;
+}
+
+.goodsType .good .info{
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+}
+
+.goodsType .good .info .good_info{
+	width: 100%;
+	height: 50%;
+	font-size: 16px;
+}
+
+.goodsType .good .info .good_name{
+	color: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+}
+
+.goodsType .good .info .good_price{
+	color: orangered;
+}
+
+.goodsType .good .info .good_price .glyphicon{
+	text-decoration: none;
+	color: orangered;
+	float: right;
+	font-size: 20px;
+}
+
+.backTop{
+	border: 2px solid rgba(200, 200, 200, 1);
+	border-radius: 6px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	color: rgba(200, 200, 200, 1);
+	width: 50px;
+	height: 50px;
+	line-height: 65px;
+	text-align: center;
+}
+
+.backTop:hover{
+	border-color:white;
+}
+
+.backTop:hover .glyphicon{
+	color: white;
+}
+
+.backTop .glyphicon{
+	color: rgba(200, 200, 200, 1);
+	text-decoration: none;
+	margin:0px;
+	margin-left: 2px;
+	font-size: 30px;
+}
+
+.backTop .glyphicon:link{
+	text-decoration: none;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+}

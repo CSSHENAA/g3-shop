@@ -1,0 +1,146 @@
+body{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.body{
+	width: 1300px;
+	height: 700px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(0, 0, 0, 0.2);
+	margin: 50px auto;
+	padding: 20px;
+	font-family: "微软雅黑";
+}
+
+.body .goods{
+	width: 417px;
+	height: 120px;
+	float: left;
+	padding: 10px;
+	border: 1px solid rgb(0, 0, 0, 0.2);
+	margin: 1px;
+}
+
+.body div[doCheck='true']{
+	border: 1px solid rgb(255, 69, 0);
+}
+
+.body .goods .img{
+	width: 110px;
+	height: 100px;
+	padding-right: 10px;
+	border-right: 1px solid rgb(0, 0, 0, 0.2);
+	float: left;
+}
+
+.body .goods .img img{
+	width: 100%;
+	height: 100%;
+}
+
+.body .goods .info{
+	width: 275px;
+	height: 100%;
+	float: left;
+	margin-left: 10px;
+}
+
+.body .goods .info .title{
+	width: 245px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+
+.body .goods .info .title a{
+	color:black;
+	text-decoration: none;
+}
+
+.body .goods .info .title a:hover{
+	color:orangered;
+}
+
+.body .goods .info .menu{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	top: 0;
+	margin-right: 0;
+	text-align: center;
+	color: rgb(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.body .goods .info .menu:hover{
+	color: rgb(0, 0, 0, 0.6);
+}
+
+.body .goods .info .price{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+}
+
+.body .goods .info .price div{
+	float: left;
+	margin-right: 30px;
+}
+
+.body .goods .info .price .num input{
+	width: 50px;
+	height: 30px;
+	text-align: center;
+}
+
+.body .goods .info .price .num span{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	margin: 0px;
+	cursor: pointer;
+}
+
+.body .result{
+	width: 1256px;
+	height: 30px;
+	margin-top: 10px;
+	position: absolute;
+	top: 720px;
+}
+
+.body .result a{
+	text-align: center;
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	color:white;
+	background-color: orangered;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.body .top_menu{
+	width: 1256px;
+	height: 30px;
+	margin: 20px 0;
+}
+
+.body .top_menu a{
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	color:white;
+	background-color: orangered;
+	text-decoration: none;
+	margin-right: 10px;
+	text-align: center;
+}
+

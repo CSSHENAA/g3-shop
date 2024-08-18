@@ -1,0 +1,108 @@
+.body{
+	width: 1300px;
+	height: 500px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(0, 0, 0, 0.2);
+	margin: 120px auto;
+	padding: 20px;
+	font-family: "微软雅黑";
+}
+
+.body .img{
+	width: 400px;
+	height: 460px;
+	float: left;
+}
+
+.body .img img{
+	width: 100%;
+	height: 100%;
+}
+
+.body .info{
+	width: 840px;
+	height: 460px;
+	float: right;
+	border: 1px solid rgb(0, 0, 0, 0.2);
+	padding:0 30px;
+	font-size: 16px;
+}
+
+.body .info .good_info{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin: 10px 0;
+}
+
+.body .info .good_price{
+	width: 500px;
+	height: 70px;
+	line-height: 70px;
+	background-color: rgba(204,248,200,0.5);
+	padding-left: 10px;
+}
+
+.body .info .good_num{
+	width: 292px;
+	padding-left: 10px;
+}
+
+.body .info .good_num .good_count{
+	font-size: 14px;
+}
+
+.body .info .good_info .good_count input{
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	border:none;
+	border:1px solid rgb(0, 0, 0, 0.3); 
+	border-left: none;
+	border-right: none;
+	margin-top: 5px;
+	
+}
+
+.body .info .good_info .good_count .glyphicon{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border:1px solid rgb(0, 0, 0, 0.1); 
+	margin: 0px;
+	margin-top: 4px;
+	background-color: rgb(0, 0, 0, 0.1);
+	color: rgb(0, 0, 0, 0.6);
+	display: inline-block;
+	float: right;
+}
+
+.body .info .good_info .good_count .glyphicon:hover{
+	cursor: pointer;
+}
+
+.body .info .menu{
+	float: right;
+	margin-left: 20px;
+}
+
+.body .info .menu .glyphicon{
+	color:white;
+}
+
+.body .info .menu .sub_menu{
+	font-size: 14px;
+	text-decoration: none;
+	margin-bottom: 10px;
+	background-color: rgba(255,69,0,1);
+	color:white;
+	padding:6px 10px;
+	border-radius: 5px;
+}
+
+.body .info .good_xq{
+	padding-left: 10px;
+}
